@@ -172,6 +172,40 @@ body{
     text-decoration: none;
 }
 
+#example-div{
+    margin: 10vh auto;
+    height: 210vw;
+}
+
+.ex-img{
+    width: 40vw;
+    height: 40vw;
+    margin: 5vw 4vw;
+    float: left;
+}
+
+.ex-img img{
+    width: 40vw;
+    height: 40vw;
+}
+
+.ex-text{
+    padding: 5vh 5vw;
+    background-color: #b3cde0;
+    width: 30vw;
+    height: 30vw;
+    margin: 10vw 10vw;
+}
+
+.ex-text h2{
+    color: #03396ce1;
+    font-size: 6vh;
+}
+
+.ex-text p{
+    font-size: 4vh;
+}
+
 #footer{
     width: 100%;
     height: 8vh;

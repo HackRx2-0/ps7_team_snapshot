@@ -59,6 +59,119 @@ body{
     margin-top: 10vh;
 }
 
+#main-body h1{
+    color: #03396C;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Brush Script MT', cursive;
+}
+
+#main-body h3{
+    color: #03396C;
+    text-align: center;
+}
+
+#image-div{
+    background-color: #b3cde0;
+    border-radius: 2rem;
+    width:95vw;
+    height: 10vh;
+    margin: 4vh auto;
+    padding: 2vh 2vw;
+}
+
+#type-div{
+    height: 17vh;
+    width: 100%;
+}
+
+.all-buttons{
+    width: 20vw;
+    height: 15vh;
+    float: left;
+    margin: 2vh 6vw;
+}
+
+.image-button{
+    width: 20vw;
+    height: 15vh;  
+    align-items: center;
+    background-color: #03396ca8;
+    border-color: #03396ca8;
+    color: white;
+}
+
+.image-button:hover{
+    background-color: #03396ce1;
+    color: white;
+}
+
+.image-button p{
+    font-size: 1.2vw;
+}
+
+.url-button{
+    padding-top: 0.3vh;
+    padding-bottom: 0.5vh;
+}
+
+.url-button p{
+    padding:0;
+    margin:0;
+}
+
+#onlineurl{
+    width: 100%;
+    height: 4vh;
+}
+
+.img-type{
+    font-size: 1.7vw;
+    margin:10vh 0rem;
+    font-weight: 600;
+    color:rgb(8, 33, 102)
+}
+
+.upload-button{
+    padding-top: 1vh;
+}
+
+#canvas{
+    margin: 7vh 25vw;
+    width: 50vw;
+    height: 70vh;
+    border: solid #03396C;
+    border: 1vh 1vw 1vh 1vw;
+}
+
+#targetimage{
+    width: 49vw;
+    height: 69vh;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.process-button{
+    width: 50vw;
+    height: 12vh;
+    margin: 2vh 25vw;
+    align-items: center;
+    background-color: #03396ca8;
+    border-color: #03396ca8;
+    color: white;
+}
+
+.process-button:hover{
+    background-color: #03396ce1;
+    color: white;
+}
+
+.process-button a{
+    color:white;
+    text-decoration: none;
+}
+
 #footer{
     width: 100%;
     height: 8vh;
